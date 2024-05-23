@@ -1,0 +1,26 @@
+cd C:\Users\aluno\Documents\NetBeansProjects\basicobemfeito; "JAVA_HOME=C:\\Program Files\\Java\\jdk-15.0.2" cmd /c "\"C:\\Program Files\\NetBeans-21\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=sistemaacad.basicobemfeito.Main \"-Dexec.executable=C:\\Program Files\\Java\\jdk-15.0.2\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-21\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.1.0:exec"
+Scanning for projects...
+
+---------------------< sistemaAcad:basicobemfeito >---------------------
+Building basicobemfeito 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.3.1:resources (default-resources) @ basicobemfeito ---
+skip non existing resourceDirectory C:\Users\aluno\Documents\NetBeansProjects\basicobemfeito\src\main\resources
+
+--- compiler:3.11.0:compile (default-compile) @ basicobemfeito ---
+Changes detected - recompiling the module! :source
+Compiling 6 source files with javac [debug target 15] to target\classes
+
+--- exec:3.1.0:exec (default-cli) @ basicobemfeito ---
+ DADOS cachorro: 
+au au! e o som do cachorrinho moca faz
+ DADOS gato: 
+miau! e o som que o gatinho isis faz
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  0.805 s
+Finished at: 2024-05-22T21:16:12-03:00
+------------------------------------------------------------------------
